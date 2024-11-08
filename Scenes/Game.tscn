@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbwj3swi6ugll"]
+
+[ext_resource type="PackedScene" uid="uid://dc6qodjy70bwo" path="res://Scenes/Move_Red.tscn" id="1_pl3lb"]
+[ext_resource type="PackedScene" uid="uid://ba3m72xblmle3" path="res://Scenes/Idle_P1_Red.tscn" id="2_7b2io"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Move_P1_Red" parent="." instance=ExtResource("1_pl3lb")]
+position = Vector2(192, 64)
+
+[node name="Idle_P1_Red" parent="." instance=ExtResource("2_7b2io")]
+position = Vector2(192, 576)
